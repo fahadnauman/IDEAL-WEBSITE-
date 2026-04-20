@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.cdnfonts.com/css/opificio');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --color-brand-yellow: #FFEA00;
+  --color-brand-yellow-dark: #E6D300;
+  --color-brand-yellow-light: #FFF24D;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #FFFFFF;
+  color: #1A1A1A;
+}
+
+html {
+  scroll-behavior: smooth;
+}
